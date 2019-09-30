@@ -7,7 +7,7 @@ int main()
 {
     setlocale(LC_ALL,"");
 
-    Exercicio3();
+    Exercicio4();
     return 0;
 }
 
@@ -62,12 +62,36 @@ int Exercicio3(){
         n++;
         scanf("%i", &cot);
 
-    }while(cot == 0);
+    }while(cot == 1);
 
     printf("%.1lf\n", prodVal);
 
     mG = pow(prodVal, 1.0/n);
 
     printf("%.1lf", mG);
+  return 0;
+}
+
+int Exercicio4(){
+
+    int val1, val2, raz, dif, cot;
+
+    do{
+        printf("\ndigite o valor1-> ");
+        scanf("%i", &val1);
+        printf("\ndigite o valor2-> ");
+        scanf("%i", &val2);
+
+        raz = val1/val2;
+        printf("%i\n", raz);
+        dif = val2 - val1;
+        printf("%i\n4", dif);
+
+        printf("1 para continuar, 0 para acabar");
+        scanf("%i", &cot);
+
+    }while(cot == 1);
+
+
   return 0;
 }
