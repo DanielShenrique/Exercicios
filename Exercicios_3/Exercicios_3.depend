@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567460921 source:c:\users\sh\documents\faculdade\introdução a programação\exercicios_trab\exercicios_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1569881268 source:c:\users\sh\documents\faculdade\introdução a programação\exercicios_trab\aulas\exercicios_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
