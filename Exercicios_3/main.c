@@ -20,9 +20,9 @@ int Exercicio1(){
     scanf("%i %i", &val1, &val2);
 
     if(val1 % val2 == 0){
-        printf("\n… divisivel");
+        printf("\n√â divisivel");
     }else{
-        printf("\nN„o È divisÌvel");
+        printf("\nN√£o √© divis√≠vel");
     }
 
     return 0;
@@ -37,9 +37,9 @@ int Exercicio2(){
     scanf("%i %i %i %i", &val1, &val2, &val3, &val4);
 
     if((val1 == val2) % 2 != 0 || (val1 == val3) % 2 != 0 || (val1 == val4) % 2 != 0|| (val2 == val3) % 2 != 0 || (val2 == val4) % 2 != 0|| (val3 == val4) % 2 != 0){
-        printf("H·");
+        printf("H√°");
     }else{
-        printf("N„o h·");
+        printf("N√£o h√°");
     }
 
 
@@ -64,6 +64,8 @@ int Exercicio3(){
 
     }while(cot == 1);
 
+    n = n-1;
+    
     printf("%.1lf\n", prodVal);
 
     mG = pow(prodVal, 1.0/n);
