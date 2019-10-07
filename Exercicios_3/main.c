@@ -97,3 +97,25 @@ int Exercicio4(){
 
   return 0;
 }
+
+int Exercicio5(){
+    int val1, val2, dif, i = 1, quant;
+    float raz;
+
+    printf("digite a quantidade -> ");
+    scanf("%i", &quant);
+    do{
+        do{
+            printf("\ndigite o valor1-> ");
+            scanf("%i", &val1);
+        }while(val1 == 0);
+        printf("\ndigite o valor2-> ");
+        scanf("%i", &val2);
+        raz = (float)val2/val1;
+        printf("%.2f\n", raz);
+        dif = val2 - val1;
+        printf("%i\n", dif);
+        i++;
+    }while(i<=quant);
+    return 0;
+}
