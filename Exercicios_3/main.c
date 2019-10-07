@@ -63,8 +63,6 @@ int Exercicio3(){
         scanf("%i", &cot);
 
     }while(cot == 1);
-
-    n = n-1;
     
     printf("%.1lf\n", prodVal);
 
